@@ -1,0 +1,44 @@
+*{
+   box-sizing: border-box;
+   background-size: cover;
+   text-decoration: none;
+
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   transition: .2s ease;
+   vertical-align: baseline;
+   background-size: cover;
+
+   margin: 0;
+   padding: 0;
+}
+html{
+   width: 100%;
+   max-width: 100%;
+   margin: 0 auto;
+
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+body{
+   width: 100%;
+   max-width: 100%;
+   margin: 0 auto;
+
+   overflow: hidden;
+   scroll-behavior: smooth;
+}
+
+/* basick */
+
+.container{
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 10px 25px;
+}
+.wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 10px;
+}
